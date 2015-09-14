@@ -24,7 +24,7 @@
 Go to https://auth.smartship.io and create a set of credentials using the Shopify Preset
 *NOTE: Only Account Manager can access the credentials page*
 
-![Auth Page](/img/auth.png)
+![Auth Page](img/auth.png)
 
 **copy** the new `key`, we will use it later in the Shopify App to connect your Smartship Account with Shopify.
 
@@ -46,7 +46,7 @@ Accept the permissions it needs and you're almost done!
 ## Getting Started With the Smartship app
 Here are the menu options that can be done in the app
 
-![App Menu]('/img/main_menu.png')
+![main_menu](img/main_menu.png)
 
 * **Pending Orders**
 Allows you to complete orders using Smartship and dispatch them
@@ -70,14 +70,14 @@ Allows you to add a residential surcharge during the quoting process and dispatc
 
 #### Connecting the app to the Smartship API
 At the bottom of the settings page, there is a text field that takes a valid Smartship key and links it to your shopify store. This is the one we created earlier in this help file.
-![Smartship Key]('/img/key_input.png')
+![Smartship Key](img/key_input.png)
 Save it by clicking the top right corner button and you're ready to show real time rates! (with the appropriate Shopify Plan)
 
 ### Smartship Pending Orders
 
 This is the page where you can see all the orders that have been placed by customers. 
 
-![Pending Orders]('/img/pending_orders.png')
+![Pending Orders](img/pending_orders.png)
 This page also allows you to take orders and convert them to a shipment using the Smartship system. You an also automatically dispatch orders from this page as well, provided the order was quoted with a Smartship service.
 
 Upon installing the app, it will fetch all the orders you your store has not marked as shipped from the past thirty days and add them to the app's records so that you can start using the Smartship app right away.
@@ -104,20 +104,20 @@ Checks to see if the order has been fufilled in your admin page. An order is con
 An action that can be taken for the order, usually in the form of a button or a link. Different factors will determine what will be shown and what actions it will take.
   
 * **Convert order to Smartship**
-![Convert Order]('/img/convert_order.png')
+![Convert Order](img/convert_order.png)
 An order that has not been given a service provided by Smartship can be sent to Smartship and it will create a prequoted shipment that you can then complete on the Smartship website. Note you **will not** be charged for completing this action. However, should you dispatch this order through the Smartship website, you **will** be charged for this order.
 
 * **Dispatch Order to Smartship**
-![Dispatch Order]('/img/dispatch_order.png')
+![Dispatch Order](img/dispatch_order.png)
 An order that has a shipping method provided by Smartship can be immediately created and dispatched to Smartship. This action will create the appropriate documents necessary to send your shipment to the customer. If your order has been fufilled in you store's admin page, a prompt will appear asking you to confirm the dispatch. It's just a bit of extra confirmation to make sure you don't dispatch an order that has already been sent out so that you don't get charged for an order that you do not plan on shipping. Note that by dispatching an order using the app, you **will** be charged for the dispatched order on Smartship.
 
 * **View on Smartship**
-![View On Smartship]('/img/view_on_smartship.png')
+![View On Smartship](img/view_on_smartship.png)
 Allows you to either see the overview for your order or continue the quoting process on the Smartship website. If your order was prequoted using the app, the link will bring you to the quote page for your order on the Smartship site. If the order was dispatched using the app, then the link will be the same, but will instead take you to the shipment overview page for the order on the Smartship site.
 
 ### Smartship Prepared Orders
 This allows you to see all the orders you have dispatched using the Smartship app and website.
-![Shipments Page]('/img/shipments.png')
+![Shipments Page](img/shipments.png)
 
 * **Order Number**
 The order number as it appears in your shopify admin store. Links to the overview for the order in you shopify admin page.
@@ -135,7 +135,7 @@ The service that was used when the order was dispatched.
 The total cost that was quoted when the order was dispatched.
 
 * **Shipping Documents**
-![Shipment Options]('/img/shipment_documents.png')
+![Shipment Options](img/shipment_documents.png)
 The list of shipping documents that are required when dispatching your order to the couriers. Every dispatched shipment will a link to the regular sized label and a thermal sized label. These labels must be placed on each of the packages in your shipment. For international shipments, there is a commercial invoice document that must also be included in the shipment along with the shipping labels. All the documents are in .PDF format.
 
 * **View On Smartship**
@@ -143,12 +143,12 @@ Bring you to the overview page for the shipment on the Smartship website.
 
 ###Pickups
 This link will bring you to the pickup actions page. From here, you can navigate to the **Schedule Pickups** page, or the **View Pickups** page.
-![Pickup Admin]('/img/pickup_admin.png')
+![Pickup Admin](img/pickup_admin.png)
 
 
 ####Schedule Pickups
 From this page, you can schedule pickups for the shipments you made from Smartship.
-![Pending Pickups]('/img/pending_pickups.png')
+![Pending Pickups](img/pending_pickups.png)
 
 * **Tracking Number**
 The tracking number for the order.
@@ -167,7 +167,7 @@ Checkboxes for which you want to schedule pickups for. You can schedule a single
 
 ####Pickup Form
 This is where you fill the information for your pickup. All of the fields are required to schedule your pickup.
-![Pickup Form]('/img/pickup_form.png')
+![Pickup Form](img/pickup_form.png)
 
 * **Pickup address**
 This is the address that will be used for the pickup address. This is your store's address information.
@@ -187,7 +187,7 @@ Once all the information has been filled in. You can proceed by pressing the Sch
 ####View Pickups
 This is where you can view all the pickups you have made on Smartship. You can also cancel pickups you have already made.
 
-![View pickups]('/img/view_pickups.png')
+![View pickups](img/view_pickups.png)
 
 * **Confirmation number**
 The pickup confirmation number.
