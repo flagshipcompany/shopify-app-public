@@ -26,7 +26,7 @@ Go to https://auth.smartship.io and create a set of credentials using the Shopif
 
 ![Auth Page](img/auth.png)
 
-**copy** the new `key`, we will use it later in the Shopify App to connect your Smartship Account with Shopify.
+**copy** or keep this page open, as we will need some information from this `token` that was created.
 
 ### Install the App
 #### BETA installation
@@ -43,10 +43,26 @@ if the name of your shop is `awesomecandies.myshopify.com` you need to go to thi
 
 Accept the permissions it needs and you're almost done! 
 
+## Connecting the app to the Smartship API
+
+When the app is installed, you will be taken to this page where you register your token to the app.
+
+Insert your **Public** and **Private** keys from the token that we created earlier into the appropriate fields.
+
+There is a link to the page where you create your credentials in this page in case you missed [this](#create-credentials) step or forgot your credentials for this token.
+
+![Token Register Page](img/token_register.png)
+
+Submit the keys by pressing the **Save token credentials** button. If the key pair is valid, you have successfully linked your app to the Smartship API.
+
+You now have full access to the Smartship app.
+
+If for any reason, your token gets deleted, you will be redirected to this page if you ever access the app, as your token does not exist and is not considered valid. You will need to create a new token if you wish to continue using the app.
+
 ## Getting Started With the Smartship app
 Here are the menu options that can be done in the app
 
-![main_menu](img/main_menu.png)
+![Main Menu](img/main_menu.png)
 
 * **Pending Orders**
 Allows you to complete orders using Smartship and dispatch them
@@ -67,11 +83,6 @@ Allows you to set a weight limit split on individual boxes in orders, meaning th
 
 * **Additional Charges**
 Allows you to add a residential surcharge during the quoting process and dispatch process. This helps get more accurate rates during the quoting process and the dispatch process. You can also choose to insure orders that are made through your store.
-
-#### Connecting the app to the Smartship API
-At the bottom of the settings page, there is a text field that takes a valid Smartship key and links it to your shopify store. This is the one we created earlier in this help file.
-![Smartship Key](img/key_input.png)
-Save it by clicking the top right corner button and you're ready to show real time rates! (with the appropriate Shopify Plan)
 
 ### Smartship Pending Orders
 
