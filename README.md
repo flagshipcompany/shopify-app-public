@@ -23,6 +23,7 @@
 ##Limitations
  * Only "Unlimited" shopify plans will benefits from real time quoting. Shops with a lesser plan will still be able to send shipment information to Smartship automatically.
  * Since Shopify does not provide dimensions of your store goods, the rating is made by weight only. Make sure you enter the dim weight for your goods if necessary for large but light items.
+
 ##Installation
 ### Create Credentials
 Go to https://auth.smartship.io and create a set of credentials using the Shopify Preset
