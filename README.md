@@ -26,7 +26,8 @@
 
 ##Installation
 ### Create Credentials
-Go to https://auth.smartship.io and create a set of credentials using the Shopify Preset
+Go to https://auth.smartship.io, **login with your smartship credentials** and create a set of credentials using the Shopify Preset
+
 *NOTE: Only Account Manager can access the credentials page*
 
 ![Auth Page](img/auth.png)
