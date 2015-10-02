@@ -53,11 +53,11 @@ Accept the permissions it needs and you're almost done!
 
 When the app is installed, you will be taken to this page where you register your token to the app.
 
+![Token Register Page](img/token_register.png)
+
 Insert your **Public** and **Private** keys from the token that we created earlier into the appropriate fields.
 
 There is a link to the page where you create your credentials in this page in case you missed [this](#create-credentials) step or forgot your credentials for this token.
-
-![Token Register Page](img/token_register.png)
 
 Submit the keys by pressing the **Save token credentials** button. If the key pair is valid, you have successfully linked your app to the SmartShip API.
 
