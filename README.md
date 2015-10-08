@@ -21,33 +21,25 @@
 * Easy way of adding residential surcharges to the quoted price
 
 ##Limitations
- * Only "Unlimited" shopify plans will benefits from real time quoting. Shops with a lesser plan will still be able to send shipment information to SmartShip automatically.
- * Since Shopify does not provide dimensions of your store goods, the rating is made by weight only. Make sure you enter the dim weight for your goods if necessary for large but light items.
+ * Only "Unlimited" Shopify plans will benefit from real time quoting. Shops with a lesser plan will still be able to send shipment information to SmartShip through the SmartShip Shopify App.
+ * Since Shopify does not provide dimensions of your store goods, the shipping rate is made by weight only. Make sure you enter the dim weight for your goods if necessary for large but light items.
 
 ##Installation
-### Create Credentials
-Go to https://auth.smartship.io, **login with your smartship credentials** and create a set of credentials using the Shopify Preset
-
-*NOTE: Only SmartShip Account Managers can access the credentials page*
-
-![Auth Page](img/auth.png)
-
-**copy** or keep this page open, as we will need some information from this `token` that was created.
-
 ### Install the App
 #### BETA installation
 
-You need to copy/paste this link in your browser, while replacing the name of your shop:
+To install the app place this link in your browser:
+`https://shopify.smartship.io/setup`
 
-`https://shopify.smartship.io/remote-install?shop=MY_SHOP_NAME.myshopify.com`
+![setup](img/install_form.png)
 
-You need to replace `MY_SHOP_NAME` with the actual name of your shop, e.g 
-if the name of your shop is `awesomecandies.myshopify.com` you need to go to this address:
-`https://shopify.smartship.io/remote-install?shop=awesomecandies.myshopify.com`
+Insert the name of your shop into the field and click the **Install** button.
 
-*NOTE: One we're out of beta, the app will be available in the Shopify App Store*
+You will be redirected to the shopify installer page.
 
-Accept the permissions it needs and you're almost done! 
+Accept the permissions it needs and you're almost done!
+
+*NOTE: Once we're out of beta, the app will be available in the Shopify App Store*
 
 ## Connecting the app to the SmartShip API
 
@@ -55,11 +47,23 @@ When the app is installed, you will be taken to this page where you register you
 
 ![Token Register Page](img/token_register.png)
 
-Insert your **Public** and **Private** keys from the token that we created earlier into the appropriate fields.
 
-There is a link to the page where you create your credentials in this page in case you missed [this](#create-credentials) step or forgot your credentials for this token.
+### Create Token Credentials
+Go to https://auth.smartship.io, **login with your SmartShip credentials** and create a set of credentials using the Shopify Preset
 
-Submit the keys by pressing the **Save token credentials** button. If the key pair is valid, you have successfully linked your app to the SmartShip API.
+*NOTE: Only SmartShip Account Managers can access the credentials page*
+
+![Auth Page](img/auth.png)
+
+**copy** or keep this page open, as we will need some information from this `token` that was created.
+
+### Register your token
+
+Insert your **Public** and **Private** keys from the token that we just created into these fields.
+
+![inputs](img/token_key_inputs.png)
+
+Submit the keys by pressing the **Save token credentials** button. If the key pair is valid, you will have successfully linked your app to the SmartShip API.
 
 You now have full access to the SmartShip app.
 
@@ -82,7 +86,7 @@ Change app settings that modify quoting and shipment options when dispatching us
 ### SmartShip App Settings
 
 * **Services**
-Checkboxes consisting of the courier services that SmartShip offers, and a list of the various services types that the couriers will offer. You can use these checkboxes to show or hide certain couriers or services so that they will not appear to in the *shipping method* menu at checkout
+Checkboxes consisting of the courier services that SmartShip offers, and a list of the various services types that the couriers will offer. You can use these checkboxes to show or hide certain couriers or services so that they will not appear in the *shipping method* menu at checkout
 
 * **Packaging**
 Allows you to set a weight limit split on individual boxes in orders, meaning that if you have an order which would exceed the weight that you provided, the app adds an extra box during the quoting and dispatch processes.
@@ -100,13 +104,13 @@ This page also allows you to take orders and convert them to a shipment using th
 Upon installing the app, it will fetch all the orders you your store has not marked as shipped from the past thirty days and add them to the app's records so that you can start using the SmartShip app right away.
 
 * **Order Number**
-The order number as it appears in your shopify admin store. Links to the overview for the order in your shopify admin page.
+The order number as it appears in your Shopify admin store. Links to the overview for the order in your Shopify admin page.
 
 * **Order Date**
 The date the order was placed on.
 
 * **Courier Used**
-The courier used or the company who provides the shipping service (ex: Ups, Fedex, Shopify, etc.).
+The courier used or the company who provides the shipping service (ex: UPS, Fedex, Shopify, etc.).
 
 * **Service Used**
 The shipping service selected by the customer.
@@ -115,7 +119,7 @@ The shipping service selected by the customer.
 The price that was displayed to the customer at the shipping method page in your storefront.
 
 * **Is Fufilled**
-Checks to see if the order has been fufilled in your admin page. An order is considered fufilled by the app when you mark the order as having been fully paid in your shopify admin page.
+Checks to see if the order has been fufilled in your admin page. An order is considered fufilled by the app when you mark the order as having been fully paid in your Shopify admin page.
 
 #### SmartShip actions
 An action that can be taken for the order, usually in the form of a button or a link. Different factors will determine what will be shown and what actions it will take.
@@ -139,7 +143,7 @@ This allows you to see all the orders you have dispatched using the SmartShip ap
 ![Shipments Page](img/shipments.png)
 
 * **Order Number**
-The order number as it appears in your shopify admin store. Links to the overview for the order in your shopify admin page.
+The order number as it appears in your Shopify admin store. Links to the overview for the order in your Shopify admin page.
 
 * **Tracking Number**
 The tracking number for the order.
@@ -158,7 +162,7 @@ The total cost that was quoted when the order was dispatched.
 The list of shipping documents that are required when dispatching your order to the couriers. Every dispatched shipment will a link to the regular sized label and a thermal sized label. These labels must be placed on each of the packages in your shipment. For international shipments, there is a commercial invoice document that must also be included in the shipment along with the shipping labels. All the documents are in .PDF format.
 
 * **View On SmartShip**
-Bring you to the overview page for the shipment on the SmartShip website.
+Brings you to the overview page for the shipment on the SmartShip website.
 
 ###Pickups
 This link will bring you to the pickup actions page. From here, you can navigate to the **Schedule Pickups** page, or the **View Pickups** page.
