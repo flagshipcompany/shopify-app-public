@@ -35,7 +35,7 @@ To install the app place this link in your browser:
 
 Insert the name of your shop into the field and click the **Install** button.
 
-You will be redirected to the shopify installer page.
+You will be redirected to the Shopify installer page.
 
 Accept the permissions it needs and you're almost done!
 
@@ -101,7 +101,7 @@ This is the page where you can see all the orders that have been placed by custo
 ![Pending Orders](img/pending_orders.png)
 This page also allows you to take orders and convert them to a shipment using the SmartShip system. You can also automatically dispatch orders from this page as well, provided the order was quoted with a SmartShip service.
 
-Upon installing the app, it will fetch all the orders you your store has not marked as shipped from the past thirty days and add them to the app's records so that you can start using the SmartShip app right away.
+Upon installing the app, it will fetch all the orders your store has not marked as shipped from the past thirty days and add them to the app's records so that you can start using the SmartShip app right away.
 
 * **Order Number**
 The order number as it appears in your Shopify admin store. Links to the overview for the order in your Shopify admin page.
@@ -132,7 +132,7 @@ Any online store order that was processed via the SmartShip App using a standard
 * **Dispatch Order to SmartShip**
 ![Dispatch Order](img/dispatch_order.png)
 Any online store order that was processed via the SmartShip App using live courier rates can be immediately dispatched to the SmartShip System website by pressing the **Dispatch Order to SmartShip** button. This will automatically create the necessary documents you need to send the shipment to your customer, such as the shipping labels and the commercial invoices, if necessary. If your order has been fulfilled in your store's admin page, a prompt will appear asking you to confirm the dispatch. This extra step is for your benefit and ensures you do not dispatch an order that has already been sent out **or** so you do not get charged for an order that you do not plan on shipping.
-**Note**: By dispatching an order using the SmartShip App you will be charged for the dispatched order on the SmartShip System website.
+**Note**: By dispatching an order using the SmartShip App, you will be charged for the dispatched order on the SmartShip System website.
 
 * **View on SmartShip**
 ![View On SmartShip](img/view_on_smartship.png)
@@ -159,7 +159,7 @@ The total cost that was quoted when the order was dispatched.
 
 * **Shipping Documents**
 ![Shipment Options](img/shipment_documents.png)
-The list of shipping documents that are required when dispatching your order to the couriers. Every dispatched shipment will a link to the regular sized label and a thermal sized label. These labels must be placed on each of the packages in your shipment. For international shipments, there is a commercial invoice document that must also be included in the shipment along with the shipping labels. All the documents are in .PDF format.
+The list of shipping documents that are required when dispatching your order to the couriers. Every dispatched shipment will link to a regular sized label and a thermal label. A label must be placed on each of the packages in your shipment. For international shipments, there is a commercial invoice document that must also be included in the shipment along with the shipping labels. All the documents are in .PDF format.
 
 * **View On SmartShip**
 Brings you to the overview page for the shipment on the SmartShip website.
@@ -189,7 +189,7 @@ The date on which the shipment was made
 Checkboxes for which you want to schedule pickups for. You can schedule a single pickup for multiple shipments, provided they are all from the same courier. If the couriers are all the same for the selected shipments, you can then proceed to the schedule pickup page by pressing the **Schedule pickups** button on the bottom right of the page.
 
 ####Pickup Form
-This is where you fill the information for your pickup. All of the fields are required to schedule your pickup.
+This is where you fill in the information for your pickup. All of the fields are required to schedule your pickup.
 ![Pickup Form](img/pickup_form.png)
 
 * **Pickup address**
@@ -205,7 +205,7 @@ A drop down list of pickup locations that are considered valid options by the co
 Special instructions to the driver for how to handle your shipment or other relevant information
 
 
-Once all the information has been filled in. You can proceed by pressing the **Schedule** button. Once that has been done and no errors occur, your pickup is created and you can now view it from the **View Pickups** page.
+Once all the information has been filled in, you can proceed by pressing the **Schedule** button. Once that has been done and no errors occur, your pickup is created and you can now view it from the **View Pickups** page.
 
 ####View Pickups
 This is where you can view all the pickups you have made on SmartShip. You can also cancel pickups you have already made.
@@ -221,6 +221,6 @@ The date when the pickup was made for.
 * **Pickup Location**
 The location that was provided when the pickup was scheduled.
 
-The next row can have a button that allows you to cancel the pickup, provided that either the pickup has not been picked up by the courier yet, or that the pickup date has not been passed.
+The next row can have a button that allows you to cancel the pickup, provided that either the shipment has not been picked up by the courier yet, or that the pickup date has not been passed.
 
 Cancelled pickups will have the row highlighted in red and the cancel button is removed.
