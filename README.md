@@ -61,9 +61,9 @@ Go to https://auth.smartship.io, **login with your Flagship credentials** and cr
 
 **copy** or keep this page open, as we will need some information from this `token` that was created.
 
-### Register your token
+### Register your access token
 
-Insert your **Public** and **Private** keys from the token that we just created into these fields.
+Insert the **Active token** text from the token that we just created into the **Access token** field.
 
 ![inputs](img/token_key_inputs.png)
 
@@ -94,6 +94,9 @@ Checkboxes consisting of the courier services that Flagship offers, and a list o
 
 * **Packaging**
 Allows you to set a weight limit split on individual boxes in orders, meaning that if you have an order which would exceed the weight that you provided, the app adds an extra box during the quoting and dispatch processes.
+
+* **Additional Services**
+Allows you to set options for orders to be automatically fulfilled in your Shopify admin page when you dispatch an order through the SmartShip app. **Note** this feature only applies to stores that use live courier rates which can automatically dispatch orders from the SmartShip app.
 
 * **Additional Charges**
 Allows you to add a residential surcharge during the quoting process and dispatch process. This helps get more accurate rates during the quoting process and the dispatch process. You can also choose to insure orders that are made through your store with Flagship's discounted insurance program.
