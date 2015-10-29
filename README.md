@@ -1,11 +1,11 @@
-# SmartShip Shopify App (BETA)
+# Flagship for Shopify App (BETA)
 
 - [Features](#features)
 - [Limitations](#limitations)
 - [Installation](#installation) 
 - [Report Issues](https://github.com/flagshipcompany/shopify-issues/issues)
-- [Getting Started With the SmartShip app](#getting-started-with-the-smartship-app)
-- [SmartShip app settings](#smartship-app-settings)
+- [Getting Started With the Flagship for Shopify app](#getting-started-with-the-smartship-app)
+- [Flagship for Shopify app settings](#smartship-app-settings)
 - [SmartShip Pending Orders](#smartship-pending-orders)
 - [SmartShip Prepared Orders](#smartship-prepared-orders)
 - [Schedule Pickups](#schedule-pickups)
@@ -13,16 +13,16 @@
 - [View Pickups](#view-pickups)
 
 ##Features
-* Get realtime discounted rates from SmartShip with your SmartShip Account
-* Print your labels from the app
-* Manage pickups from the app
-* Split the shipment in several boxes depending on weight
-* Push any order to SmartShip to create a prequoted shipment (useful if you don't have realtime quoting available in your Shopify Plan)
-* Easy way of adding residential surcharges to the quoted price
+* Get real-time discounted rates from SmartShip with your SmartShip Account.
+* Print your labels from the app.
+* Manage pickups from the app.
+* Split the shipment in several boxes depending on weight.
+* Push any order to SmartShip to create a prequoted shipment (useful if you don't have realtime quoting available in your Shopify Plan).
+* Easy way of adding residential surcharges to the quoted price.
 
-##Limitations
- * Only "Unlimited" Shopify plans will benefit from real time quoting. Shops with a lesser plan will still be able to send shipment information to SmartShip through the SmartShip Shopify App.
- * Since Shopify does not provide dimensions of your store goods, the shipping rate is made by weight only. Make sure you enter the dim weight for your goods if necessary for large but light items.
+##Considerations
+ * Only "Unlimited" Shopify plans will benefit from real time quoting. Shops with a lesser plan will still be able to offer standard and/or flat rate shipping to their online store and send shipment information to SmartShip through the Flagship for Shopify App.
+ * Since Shopify does not provide dimensions of your store goods, the shipping rate is made by weight only. Make sure you enter the dimensional weight for your goods if necessary for large but light items.
 
 ##Installation
 ### Install the App
@@ -69,24 +69,24 @@ You now have full access to the SmartShip app.
 
 If for any reason, your token gets deleted, you will be redirected to this page if you ever access the app, as your token does not exist and is not considered valid. You will need to create a new token if you wish to continue using the app.
 
-## Getting Started With the SmartShip app
+## Getting Started With the Flagship for Shopify app
 Here are the menu options that can be done in the app
 
 ![Main Menu](img/main_menu.png)
 
 * **Pending Orders**
-Allows you to complete orders using SmartShip and dispatch them
+Allows you to complete orders using SmartShip and dispatch them.
 * **Prepared Orders**
-Allows you to view dispatched shipments, request documents and view the shipment overview (done on the SmartShip site)
+Allows you to view dispatched shipments, request documents and view the shipment overview (done on the SmartShip site).
 * **Pickups**
-Allows you to schedule pickups for dispatched shipments, view pickups and cancel scheduled pickups
+Allows you to schedule pickups for dispatched shipments, view pickups and cancel scheduled pickups.
 * **Settings**
 Change app settings that modify quoting and shipment options when dispatching using SmartShip.
 
-### SmartShip App Settings
+### Flagship for Shopify App Settings
 
 * **Services**
-Checkboxes consisting of the courier services that SmartShip offers, and a list of the various services types that the couriers will offer. You can use these checkboxes to show or hide certain couriers or services so that they will not appear in the *shipping method* menu at checkout
+Checkboxes consisting of the courier services that SmartShip offers, and a list of the various services types that the couriers will offer. You can use these checkboxes to show or hide certain couriers or services so that they will not appear in the *shipping method* menu at checkout.
 
 * **Packaging**
 Allows you to set a weight limit split on individual boxes in orders, meaning that if you have an order which would exceed the weight that you provided, the app adds an extra box during the quoting and dispatch processes.
@@ -126,20 +126,20 @@ An action that can be taken for the order, usually in the form of a button or a 
   
 * **Convert order on SmartShip**
 ![Convert Order](img/convert_order.png)
-Any online store order that was processed via the SmartShip App using a standard or flat rate must be sent to the SmartShip System website to select your choice of service, courier rate and to complete your shipment. 
-**Note**: you will not be charged for completing this action on the SmartShip App. However, when you complete your order and dispatch it through the SmartShip System website you will be charged for this order.
+Any online store order that was processed via the Flagship for Shopify App using a standard or flat rate must be sent to the SmartShip System website to select your choice of service, courier rate and to complete your shipment. 
+**Note**: you will not be charged for completing this action on the Flagship for Shopify App. However, when you complete your order and dispatch it through the SmartShip System website you will be charged for this order.
 
 * **Dispatch Order to SmartShip**
 ![Dispatch Order](img/dispatch_order.png)
-Any online store order that was processed via the SmartShip App using live courier rates can be immediately dispatched to the SmartShip System website by pressing the **Dispatch Order to SmartShip** button. This will automatically create the necessary documents you need to send the shipment to your customer, such as the shipping labels and the commercial invoices, if necessary. If your order has been fulfilled in your store's admin page, a prompt will appear asking you to confirm the dispatch. This extra step is for your benefit and ensures you do not dispatch an order that has already been sent out **or** so you do not get charged for an order that you do not plan on shipping.
-**Note**: By dispatching an order using the SmartShip App, you will be charged for the dispatched order on the SmartShip System website.
+Any online store order that was processed via the Flagship for Shopify App using live courier rates can be immediately dispatched to the SmartShip System website by pressing the **Dispatch Order to SmartShip** button. This will automatically create the necessary documents you need to send the shipment to your customer, such as the shipping labels and the commercial invoices, if necessary. If your order has been fulfilled in your store's admin page, a prompt will appear asking you to confirm the dispatch. This extra step is for your benefit and ensures you do not dispatch an order that has already been sent out **or** so you do not get charged for an order that you do not plan on shipping.
+**Note**: By dispatching an order using the Flagship for Shopify App, you will be charged for the dispatched order on the SmartShip System website.
 
 * **View on SmartShip**
 ![View On SmartShip](img/view_on_smartship.png)
 Allows you to either see the overview for your order or continue the quoting process on the SmartShip website. If your order was prequoted using the app, the link will bring you to the quote page for your order on the SmartShip site. If the order was dispatched using the app, then the link will be the same, but will instead take you to the shipment overview page for the order on the SmartShip site.
 
 ### SmartShip Prepared Orders
-This allows you to see all the orders you have dispatched using the SmartShip app and website.
+This allows you to see all the orders you have dispatched using the Flagship for Shopify app and website.
 ![Shipments Page](img/shipments.png)
 
 * **Order Number**
@@ -183,7 +183,7 @@ The destination of the order, as well as its intended receiver, either a company
 The courier company which was used in the dispatch.
 
 * **Shipment Date**
-The date on which the shipment was made
+The date on which the shipment was made.
 
 * **Check To Schedule**
 Checkboxes for which you want to schedule pickups for. You can schedule a single pickup for multiple shipments, provided they are all from the same courier. If the couriers are all the same for the selected shipments, you can then proceed to the schedule pickup page by pressing the **Schedule pickups** button on the bottom right of the page.
@@ -202,7 +202,7 @@ The date when you want to schedule the pickup. Note that all the couriers have d
 A drop down list of pickup locations that are considered valid options by the courier.
 
 * **Delivery Instructions**
-Special instructions to the driver for how to handle your shipment or other relevant information
+Special instructions to the driver for how to handle your shipment or other relevant information.
 
 
 Once all the information has been filled in, you can proceed by pressing the **Schedule** button. Once that has been done and no errors occur, your pickup is created and you can now view it from the **View Pickups** page.
