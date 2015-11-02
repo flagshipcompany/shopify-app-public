@@ -4,7 +4,6 @@
 - [Features](#features)
 - [Considerations](#considerations)
 - [Installation](#installation) 
-- [Report Issues](https://github.com/flagshipcompany/shopify-issues/issues)
 - [Getting Started With the Flagship for Shopify app](#getting-started-with-the-smartship-app)
 - [Flagship for Shopify app settings](#smartship-app-settings)
 - [Pending Orders](#smartship-pending-orders)
@@ -12,6 +11,7 @@
 - [Schedule Pickups](#schedule-pickups)
 - [Pickup Form](#pickup-form)
 - [View Pickups](#view-pickups)
+- [Report Issues](https://github.com/flagshipcompany/shopify-issues/issues)
 
 ##About the Flagship for Shopify App
 Flagship™ for Shopify is bringing reliable discounted shipping to your online store faster, easier and more affordably.  Instantly upload data, print labels, process shipments, share real-time rates or set shipping rates on your online store - and more!  Manage shipments for online purchases easily and take your Shopify store to the next level with Flagship.
