@@ -28,23 +28,6 @@ Flagship™ for Shopify is bringing reliable discounted shipping to your online 
  * Only "Unlimited" Shopify plans will benefit from real time quoting. Shops with a lesser plan will still be able to offer standard and/or flat rate shipping to their online store and send shipment information to Flagship's online shipping system through the Flagship for Shopify App.
  * Since Shopify does not provide dimensions of your store goods, the shipping rate is made by weight only. Make sure you enter the dimensional weight for your goods if necessary for large but light items.
 
-##Installation
-### Install the App
-#### BETA installation
-
-To install the app place this link in your browser:
-`https://shopify.smartship.io/setup`
-
-![setup](img/install_form.png)
-
-Insert the name of your shop into the field and click the **Install** button.
-
-You will be redirected to the Shopify installer page.
-
-Accept the permissions it needs and you're almost done!
-
-*NOTE: Once we're out of beta, the app will be available in the Shopify App Store*
-
 ## Connecting the app to the Flagship API
 
 When the app is installed, you will be taken to this page where you register your token to the app.
