@@ -14,6 +14,7 @@
 - [View Pickups](#view-pickups)
 
 ##About the Flagship for Shopify App
+Flagship™ for Shopify is bringing reliable discounted shipping to your online store faster, easier and more affordably.  Instantly upload data, print labels, process shipments, share real-time rates or set shipping rates on your online store - and more!  Manage shipments for online purchases easily and take your Shopify store to the next level with Flagship.
 
 ##Features
 * Get real-time discounted shipping rates from Flagship's online shipping system to your Shopify store.
