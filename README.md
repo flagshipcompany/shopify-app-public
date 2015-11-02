@@ -1,7 +1,8 @@
 # Flagship for Shopify App (BETA)
 
+- [About the Flagship for Shopify App] (#About the Flagship for Shopify App)
 - [Features](#features)
-- [Considerations](#limitations)
+- [Considerations](#considerations)
 - [Installation](#installation) 
 - [Report Issues](https://github.com/flagshipcompany/shopify-issues/issues)
 - [Getting Started With the Flagship for Shopify app](#getting-started-with-the-smartship-app)
@@ -11,6 +12,8 @@
 - [Schedule Pickups](#schedule-pickups)
 - [Pickup Form](#pickup-form)
 - [View Pickups](#view-pickups)
+
+##About the Flagship for Shopify App
 
 ##Features
 * Get real-time discounted shipping rates from Flagship's online shipping system to your Shopify store.
