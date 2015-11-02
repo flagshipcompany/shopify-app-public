@@ -1,6 +1,6 @@
 # Flagship for Shopify App (BETA)
 
-- [About the Flagship for Shopify App] (#About-the-Flagship-for-Shopify-App)
+- [About the Flagship for Shopify App] (#about-the-flagship-for-shopify-app)
 - [Features](#features)
 - [Considerations](#considerations)
 - [Installation](#installation) 
