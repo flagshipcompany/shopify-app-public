@@ -99,7 +99,7 @@ Allows you to add a residential surcharge during the quoting process and dispatc
 This is the page where you can see all the orders that have been placed by customers. 
 
 ![Pending Orders](img/pending_orders.png)
-This page also allows you to take orders and convert them to a shipment using the Flagship online system. You can also automatically dispatch orders from this page as well, provided the order was quoted with a Flagship service.
+This page also allows you to take orders and convert them to a shipment using the Flagship online shipping system. You can also automatically dispatch orders from this page as well, provided the order was quoted with a Flagship service.
 
 Upon installing the app, it will fetch all the orders your store has not marked as shipped from the past thirty days and add them to the app's records so that you can start using the Flagship for Shopify app right away.
 
@@ -126,17 +126,17 @@ An action that can be taken for the order, usually in the form of a button or a 
   
 * **Convert order on Flagship**
 ![Convert Order](img/convert_order.png)
-Any online store order that was processed via the Flagship for Shopify App using a standard or flat rate must be sent to the Flagship online system to select your choice of service, courier rate and to complete your shipment. 
-**Note**: you will not be charged for completing this action on the Flagship for Shopify App. However, when you complete your order and dispatch it through the Flagship online system, you will be charged for this order.
+Any online store order that was processed via the Flagship for Shopify App using a standard or flat rate must be sent to the Flagship online shipping system to select your choice of service, courier rate and to complete your shipment. 
+**Note**: you will not be charged for completing this action on the Flagship for Shopify App. However, when you complete your order and dispatch it through the Flagship online shipping system, you will be charged for this order.
 
 * **Dispatch Order to Flagship**
 ![Dispatch Order](img/dispatch_order.png)
-Any online store order that was processed via the Flagship for Shopify App using live courier rates can be immediately dispatched to the Flagship online system by pressing the **Dispatch Order to Flagship** button. This will automatically create the necessary documents you need to send the shipment to your customer, such as the shipping labels and the commercial invoices, if necessary. If your order has been fulfilled in your store's admin page, a prompt will appear asking you to confirm the dispatch. This extra step is for your benefit and ensures you do not dispatch an order that has already been sent out **or** so you do not get charged for an order that you do not plan on shipping.
-**Note**: By dispatching an order using the Flagship for Shopify App, you will be charged for the dispatched order on the Flagship online system.
+Any online store order that was processed via the Flagship for Shopify App using live courier rates can be immediately dispatched to the Flagship online shipping system by pressing the **Dispatch Order to Flagship** button. This will automatically create the necessary documents you need to send the shipment to your customer, such as the shipping labels and the commercial invoices, if necessary. If your order has been fulfilled in your store's admin page, a prompt will appear asking you to confirm the dispatch. This extra step is for your benefit and ensures you do not dispatch an order that has already been sent out **or** so you do not get charged for an order that you do not plan on shipping.
+**Note**: By dispatching an order using the Flagship for Shopify App, you will be charged for the dispatched order on the Flagship online shipping system.
 
 * **View on Flagship**
 ![View On Flagship](img/view_on_smartship.png)
-Allows you to either see the overview for your order or continue the quoting process on the Flagship online system. If your order was prequoted using the app, the link will bring you to the quote page for your order on the Flagship online system. If the order was dispatched using the app, then the link will be the same, but will instead take you to the shipment overview page for the order on the Flagship online system.
+Allows you to either see the overview for your order or continue the quoting process on the Flagship online shipping system. If your order was prequoted using the app, the link will bring you to the quote page for your order on the Flagship online shipping system. If the order was dispatched using the app, then the link will be the same, but will instead take you to the shipment overview page for the order on the Flagship online shipping system.
 
 ### Prepared Orders
 This allows you to see all the orders you have dispatched using the Flagship for Shopify app and online system.
@@ -162,7 +162,7 @@ The total cost that was quoted when the order was dispatched.
 The list of shipping documents that are required when dispatching your order to the couriers. Every dispatched shipment will link to a regular sized label and a thermal label. A label must be placed on each of the packages in your shipment. For international shipments, there is a commercial invoice document that must also be included in the shipment along with the shipping labels. All the documents are in .PDF format.
 
 * **View On Flagship**
-Brings you to the overview page for the shipment on the Flagship online system.
+Brings you to the overview page for the shipment on the Flagship online shipping system.
 
 ###Pickups
 This link will bring you to the pickup actions page. From here, you can navigate to the **Schedule Pickups** page, or the **View Pickups** page.
