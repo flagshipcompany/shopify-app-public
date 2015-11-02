@@ -142,7 +142,7 @@ Any online store order that was processed via the Flagship for Shopify App using
 **Note**: By dispatching an order using the Flagship for Shopify App, you will be charged for the dispatched order on the Flagship online shipping system.
 
 * **View on Flagship**
-![View On Flagship](img/view_on_smartship.png)
+![View On Flagship](img/view_on_flagship.png)
 Allows you to either see the overview for your order or continue the quoting process on the Flagship online shipping system. If your order was prequoted using the app, the link will bring you to the quote page for your order on the Flagship online shipping system. If the order was dispatched using the app, then the link will be the same, but will instead take you to the shipment overview page for the order on the Flagship online shipping system.
 
 ### Prepared Orders
