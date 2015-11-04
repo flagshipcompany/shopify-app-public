@@ -1,13 +1,12 @@
-# Flagship for Shopify App (BETA)
+# Flagship for Shopify App
 
 - [About the Flagship for Shopify App] (#about-the-flagship-for-shopify-app)
 - [Features](#features)
 - [Considerations](#considerations)
-- [Installation](#installation) 
-- [Getting Started With the Flagship for Shopify app](#getting-started-with-the-smartship-app)
-- [Flagship for Shopify app settings](#smartship-app-settings)
-- [Pending Orders](#smartship-pending-orders)
-- [Prepared Orders](#smartship-prepared-orders)
+- [Getting Started With the Flagship for Shopify app](#getting-started-with-the-flagship-for-shopify-app)
+- [Flagship for Shopify app settings](#flagship-for-shopify-app-settings)
+- [Pending Orders](#pending-orders)
+- [Prepared Orders](#prepared-orders)
 - [Schedule Pickups](#schedule-pickups)
 - [Pickup Form](#pickup-form)
 - [View Pickups](#view-pickups)
