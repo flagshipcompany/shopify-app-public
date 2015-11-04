@@ -31,7 +31,7 @@ Flagship™ for Shopify is bringing reliable discounted shipping to your online 
 
 When the app is installed, you will be taken to this page where you register your token to the app.
 
-![Token Register Page](img/token_register.png)
+![Token Register Page](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/token_register.png)
 
 
 ### Create Token Credentials
@@ -39,7 +39,7 @@ Go to https://auth.smartship.io, **login with your Flagship credentials** and cr
 
 *NOTE: Only Flagship Account Managers can access the credentials page*
 
-![Auth Page](img/auth.png)
+![Auth Page](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/auth.png)
 
 **copy** or keep this page open, as we will need some information from this `token` that was created.
 
@@ -47,7 +47,7 @@ Go to https://auth.smartship.io, **login with your Flagship credentials** and cr
 
 Insert the **Active token** text from the token that we just created into the **Access token** field.
 
-![inputs](img/token_key_inputs.png)
+![inputs](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/token_key_inputs.png)
 
 Submit the keys by pressing the **Save token credentials** button. If the key pair is valid, you will have successfully linked your app to the Flagship API.
 
@@ -58,7 +58,7 @@ If for any reason, your token gets deleted, you will be redirected to this page 
 ## Getting Started With the Flagship for Shopify app
 Here are the menu options that can be done in the app
 
-![Main Menu](img/main_menu.png)
+![Main Menu](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/main_menu.png)
 
 * **Pending Orders**
 Allows you to complete orders using Flagship's online shipping system and dispatch them.
@@ -87,7 +87,7 @@ Allows you to add a residential surcharge during the quoting process and dispatc
 
 This is the page where you can see all the orders that have been placed by customers. 
 
-![Pending Orders](img/pending_orders.png)
+![Pending Orders](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/pending_orders.png)
 This page also allows you to take orders and convert them to a shipment using the Flagship online shipping system. You can also automatically dispatch orders from this page as well, provided the order was quoted with a Flagship service.
 
 Upon installing the app, it will fetch all the orders your store has not marked as shipped from the past thirty days and add them to the app's records so that you can start using the Flagship for Shopify app right away.
@@ -114,22 +114,22 @@ Checks to see if the order has been fufilled in your admin page. An order is con
 An action that can be taken for the order, usually in the form of a button or a link. Different factors will determine what will be shown and what actions it will take.
   
 * **Convert order on Flagship**
-![Convert Order](img/convert_order.png)
+![Convert Order](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/convert_order.png)
 Any online store order that was processed via the Flagship for Shopify App using a standard or flat rate must be sent to the Flagship online shipping system to select your choice of service, courier rate and to complete your shipment. 
 **Note**: you will not be charged for completing this action on the Flagship for Shopify App. However, when you complete your order and dispatch it through the Flagship online shipping system, you will be charged for this order.
 
 * **Dispatch Order to Flagship**
-![Dispatch Order](img/dispatch_order.png)
+![Dispatch Order](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/dispatch_order.png)
 Any online store order that was processed via the Flagship for Shopify App using live courier rates can be immediately dispatched to the Flagship online shipping system by pressing the **Dispatch Order to Flagship** button. This will automatically create the necessary documents you need to send the shipment to your customer, such as the shipping labels and the commercial invoices, if necessary. If your order has been fulfilled in your store's admin page, a prompt will appear asking you to confirm the dispatch. This extra step is for your benefit and ensures you do not dispatch an order that has already been sent out **or** so you do not get charged for an order that you do not plan on shipping.
 **Note**: By dispatching an order using the Flagship for Shopify App, you will be charged for the dispatched order on the Flagship online shipping system.
 
 * **View on Flagship**
-![View On Flagship](img/view_on_flagship.png)
+![View On Flagship](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/view_on_flagship.png)
 Allows you to either see the overview for your order or continue the quoting process on the Flagship online shipping system. If your order was prequoted using the app, the link will bring you to the quote page for your order on the Flagship online shipping system. If the order was dispatched using the app, then the link will be the same, but will instead take you to the shipment overview page for the order on the Flagship online shipping system.
 
 ### Prepared Orders
 This allows you to see all the orders you have dispatched using the Flagship for Shopify app and online system.
-![Shipments Page](img/shipments.png)
+![Shipments Page](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/shipments.png)
 
 * **Order Number**
 The order number as it appears in your Shopify admin store. Links to the overview for the order in your Shopify admin page.
@@ -147,7 +147,7 @@ The service that was used when the order was dispatched.
 The total cost that was quoted when the order was dispatched.
 
 * **Shipping Documents**
-![Shipment Options](img/shipment_documents.png)
+![Shipment Options](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/shipment_documents.png)
 The list of shipping documents that are required when dispatching your order to the couriers. Every dispatched shipment will link to a regular sized label and a thermal label. A label must be placed on each of the packages in your shipment. For international shipments, there is a commercial invoice document that must also be included in the shipment along with the shipping labels. All the documents are in .PDF format.
 
 * **View On Flagship**
@@ -155,12 +155,12 @@ Brings you to the overview page for the shipment on the Flagship online shipping
 
 ###Pickups
 This link will bring you to the pickup actions page. From here, you can navigate to the **Schedule Pickups** page, or the **View Pickups** page.
-![Pickup Admin](img/pickup_admin.png)
+![Pickup Admin](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/pickup_admin.png)
 
 
 ####Schedule Pickups
 From this page, you can schedule pickups for the shipments made through the Flagship for Shopify app.
-![Pending Pickups](img/pending_pickups.png)
+![Pending Pickups](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/pending_pickups.png)
 
 * **Tracking Number**
 The tracking number for the order.
@@ -179,7 +179,7 @@ Checkboxes for which you want to schedule pickups for. You can schedule a single
 
 ####Pickup Form
 This is where you fill in the information for your pickup. All of the fields are required to schedule your pickup.
-![Pickup Form](img/pickup_form.png)
+![Pickup Form](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/pickup_form.png)
 
 * **Pickup address**
 This is the address that will be used for the pickup address. This is your store's address information.
@@ -199,7 +199,7 @@ Once all the information has been filled in, you can proceed by pressing the **S
 ####View Pickups
 This is where you can view all the pickups you have made through the Flagship for Shopify app. You can also cancel pickups you have already made.
 
-![View pickups](img/view_pickups.png)
+![View pickups](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/view_pickups.png)
 
 * **Confirmation number**
 The pickup confirmation number.
