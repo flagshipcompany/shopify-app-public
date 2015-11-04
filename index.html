@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Flagship For Shopify by flagshipcompany</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Flagship For Shopify</h1>
+      <h2 class="project-tagline">Support for the Flagship for Shopify App</h2>
+      <a href="https://github.com/flagshipcompany/shopify-app-public" class="btn">View on GitHub</a>
+      <a href="https://github.com/flagshipcompany/shopify-app-public/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/flagshipcompany/shopify-app-public/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="flagship-for-shopify-app" class="anchor" href="#flagship-for-shopify-app" aria-hidden="true"><span class="octicon octicon-link"></span></a>Flagship for Shopify App</h1>
+
+<ul>
+<li><a href="#about-the-flagship-for-shopify-app">About the Flagship for Shopify App</a></li>
+<li><a href="#features">Features</a></li>
+<li><a href="#considerations">Considerations</a></li>
+<li>
+<a href="#installation">Installation</a> </li>
+<li><a href="#getting-started-with-the-smartship-app">Getting Started With the Flagship for Shopify app</a></li>
+<li><a href="#smartship-app-settings">Flagship for Shopify app settings</a></li>
+<li><a href="#smartship-pending-orders">Pending Orders</a></li>
+<li><a href="#smartship-prepared-orders">Prepared Orders</a></li>
+<li><a href="#schedule-pickups">Schedule Pickups</a></li>
+<li><a href="#pickup-form">Pickup Form</a></li>
+<li><a href="#view-pickups">View Pickups</a></li>
+<li><a href="https://github.com/flagshipcompany/shopify-issues/issues">Report Issues</a></li>
+</ul>
+
+<h2>
+<a id="about-the-flagship-for-shopify-app" class="anchor" href="#about-the-flagship-for-shopify-app" aria-hidden="true"><span class="octicon octicon-link"></span></a>About the Flagship for Shopify App</h2>
+
+<p>Flagship™ for Shopify is bringing reliable discounted shipping to your online store faster, easier and more affordably.  Instantly upload data, print labels, process shipments, share real-time rates or set shipping rates on your online store - and more!  Manage shipments for online purchases easily and take your Shopify store to the next level with Flagship.</p>
+
+<h2>
+<a id="features" class="anchor" href="#features" aria-hidden="true"><span class="octicon octicon-link"></span></a>Features</h2>
+
+<ul>
+<li>Get real-time discounted shipping rates from Flagship's online shipping system to your Shopify store.</li>
+<li>Print your labels from the app.</li>
+<li>Manage pickups from the app.</li>
+<li>Split the shipment in several boxes depending on weight.</li>
+<li>Push any order to Flagship's online shipping system to create a prequoted shipment (useful if you don't have realtime quoting available in your Shopify Plan).</li>
+<li>Easy way of adding residential surcharges to the quoted price.</li>
+</ul>
+
+<h2>
+<a id="considerations" class="anchor" href="#considerations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Considerations</h2>
+
+<ul>
+<li>Only "Unlimited" Shopify plans will benefit from real time quoting. Shops with a lesser plan will still be able to offer standard and/or flat rate shipping to their online store and send shipment information to Flagship's online shipping system through the Flagship for Shopify App.</li>
+<li>Since Shopify does not provide dimensions of your store goods, the shipping rate is made by weight only. Make sure you enter the dimensional weight for your goods if necessary for large but light items.</li>
+</ul>
+
+<h2>
+<a id="connecting-the-app-to-the-flagship-api" class="anchor" href="#connecting-the-app-to-the-flagship-api" aria-hidden="true"><span class="octicon octicon-link"></span></a>Connecting the app to the Flagship API</h2>
+
+<p>When the app is installed, you will be taken to this page where you register your token to the app.</p>
+
+<p><img src="https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/token_register.png" alt="Token Register Page"></p>
+
+<h3>
+<a id="create-token-credentials" class="anchor" href="#create-token-credentials" aria-hidden="true"><span class="octicon octicon-link"></span></a>Create Token Credentials</h3>
+
+<p>Go to <a href="https://auth.smartship.io">https://auth.smartship.io</a>, <strong>login with your Flagship credentials</strong> and create a set of credentials using the Shopify Preset</p>
+
+<p><em>NOTE: Only Flagship Account Managers can access the credentials page</em></p>
+
+<p><img src="https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/auth.png" alt="Auth Page"></p>
+
+<p><strong>copy</strong> or keep this page open, as we will need some information from this <code>token</code> that was created.</p>
+
+<h3>
+<a id="register-your-access-token" class="anchor" href="#register-your-access-token" aria-hidden="true"><span class="octicon octicon-link"></span></a>Register your access token</h3>
+
+<p>Insert the <strong>Active token</strong> text from the token that we just created into the <strong>Access token</strong> field.</p>
+
+<p><img src="https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/token_key_inputs.png" alt="inputs"></p>
+
+<p>Submit the keys by pressing the <strong>Save token credentials</strong> button. If the key pair is valid, you will have successfully linked your app to the Flagship API.</p>
+
+<p>You now have full access to the Flagship for Shopify app.</p>
+
+<p>If for any reason, your token gets deleted, you will be redirected to this page if you ever access the app, as your token does not exist and is not considered valid. You will need to create a new token if you wish to continue using the app.</p>
+
+<h2>
+<a id="getting-started-with-the-flagship-for-shopify-app" class="anchor" href="#getting-started-with-the-flagship-for-shopify-app" aria-hidden="true"><span class="octicon octicon-link"></span></a>Getting Started With the Flagship for Shopify app</h2>
+
+<p>Here are the menu options that can be done in the app</p>
+
+<p><img src="https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/main_menu.png" alt="Main Menu"></p>
+
+<ul>
+<li>
+<strong>Pending Orders</strong>
+Allows you to complete orders using Flagship's online shipping system and dispatch them.</li>
+<li>
+<strong>Prepared Orders</strong>
+Allows you to view dispatched shipments, request documents and view the shipment overview (done on the Flagship online shipping system).</li>
+<li>
+<strong>Pickups</strong>
+Allows you to schedule pickups for dispatched shipments, view pickups and cancel scheduled pickups.</li>
+<li>
+<strong>Settings</strong>
+Change app settings that modify quoting and shipment options when dispatching using Flagship's online shipping system.</li>
+</ul>
+
+<h3>
+<a id="flagship-for-shopify-app-settings" class="anchor" href="#flagship-for-shopify-app-settings" aria-hidden="true"><span class="octicon octicon-link"></span></a>Flagship for Shopify App Settings</h3>
+
+<ul>
+<li><p><strong>Services</strong>
+Checkboxes consisting of the courier services that Flagship offers, and a list of the various services types that the couriers will offer. You can use these checkboxes to show or hide certain couriers or services so that they will not appear in the <em>shipping method</em> menu at checkout.</p></li>
+<li><p><strong>Packaging</strong>
+Allows you to set a weight limit split on individual boxes in orders, meaning that if you have an order which would exceed the weight that you provided, the app adds an extra box during the quoting and dispatch processes.</p></li>
+<li><p><strong>Additional Services</strong>
+Allows you to set options for orders to be automatically fulfilled in your Shopify admin page when you dispatch an order through the Flagship for Shopify app. <strong>Note</strong> this feature only applies to stores that use live courier rates which can automatically dispatch orders from the Flagship for Shopify app.</p></li>
+<li><p><strong>Additional Charges</strong>
+Allows you to add a residential surcharge during the quoting process and dispatch process. This helps get more accurate rates during the quoting process and the dispatch process. You can also choose to insure orders that are made through your store with Flagship's discounted insurance program.</p></li>
+</ul>
+
+<h3>
+<a id="pending-orders" class="anchor" href="#pending-orders" aria-hidden="true"><span class="octicon octicon-link"></span></a>Pending Orders</h3>
+
+<p>This is the page where you can see all the orders that have been placed by customers. </p>
+
+<p><img src="https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/pending_orders.png" alt="Pending Orders">
+This page also allows you to take orders and convert them to a shipment using the Flagship online shipping system. You can also automatically dispatch orders from this page as well, provided the order was quoted with a Flagship service.</p>
+
+<p>Upon installing the app, it will fetch all the orders your store has not marked as shipped from the past thirty days and add them to the app's records so that you can start using the Flagship for Shopify app right away.</p>
+
+<ul>
+<li><p><strong>Order Number</strong>
+The order number as it appears in your Shopify admin store. Links to the overview for the order in your Shopify admin page.</p></li>
+<li><p><strong>Order Date</strong>
+The date the order was placed on.</p></li>
+<li><p><strong>Courier Used</strong>
+The courier used or the company who provides the shipping service (ex: UPS, FedEx, Purolator, etc.).</p></li>
+<li><p><strong>Service Used</strong>
+The shipping service selected by the customer.</p></li>
+<li><p><strong>Quoted Price</strong>
+The price that was displayed to the customer at the shipping method page in your storefront.</p></li>
+<li><p><strong>Is Fufilled</strong>
+Checks to see if the order has been fufilled in your admin page. An order is considered fufilled by the app when you mark the order as having been fully paid in your Shopify admin page.</p></li>
+</ul>
+
+<h4>
+<a id="actions" class="anchor" href="#actions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Actions</h4>
+
+<p>An action that can be taken for the order, usually in the form of a button or a link. Different factors will determine what will be shown and what actions it will take.</p>
+
+<ul>
+<li><p><strong>Convert order on Flagship</strong>
+<img src="https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/convert_order.png" alt="Convert Order">
+Any online store order that was processed via the Flagship for Shopify App using a standard or flat rate must be sent to the Flagship online shipping system to select your choice of service, courier rate and to complete your shipment. 
+<strong>Note</strong>: you will not be charged for completing this action on the Flagship for Shopify App. However, when you complete your order and dispatch it through the Flagship online shipping system, you will be charged for this order.</p></li>
+<li><p><strong>Dispatch Order to Flagship</strong>
+<img src="https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/dispatch_order.png" alt="Dispatch Order">
+Any online store order that was processed via the Flagship for Shopify App using live courier rates can be immediately dispatched to the Flagship online shipping system by pressing the <strong>Dispatch Order to Flagship</strong> button. This will automatically create the necessary documents you need to send the shipment to your customer, such as the shipping labels and the commercial invoices, if necessary. If your order has been fulfilled in your store's admin page, a prompt will appear asking you to confirm the dispatch. This extra step is for your benefit and ensures you do not dispatch an order that has already been sent out <strong>or</strong> so you do not get charged for an order that you do not plan on shipping.
+<strong>Note</strong>: By dispatching an order using the Flagship for Shopify App, you will be charged for the dispatched order on the Flagship online shipping system.</p></li>
+<li><p><strong>View on Flagship</strong>
+<img src="https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/view_on_flagship.png" alt="View On Flagship">
+Allows you to either see the overview for your order or continue the quoting process on the Flagship online shipping system. If your order was prequoted using the app, the link will bring you to the quote page for your order on the Flagship online shipping system. If the order was dispatched using the app, then the link will be the same, but will instead take you to the shipment overview page for the order on the Flagship online shipping system.</p></li>
+</ul>
+
+<h3>
+<a id="prepared-orders" class="anchor" href="#prepared-orders" aria-hidden="true"><span class="octicon octicon-link"></span></a>Prepared Orders</h3>
+
+<p>This allows you to see all the orders you have dispatched using the Flagship for Shopify app and online system.
+<img src="https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/shipments.png" alt="Shipments Page"></p>
+
+<ul>
+<li><p><strong>Order Number</strong>
+The order number as it appears in your Shopify admin store. Links to the overview for the order in your Shopify admin page.</p></li>
+<li><p><strong>Tracking Number</strong>
+The tracking number for the order.</p></li>
+<li><p><strong>To Address</strong>
+The destination of the order, as well as its intended receiver, either a company name or the name of a person.</p></li>
+<li><p><strong>Service Used</strong>
+The service that was used when the order was dispatched. </p></li>
+<li><p><strong>Total Cost</strong>
+The total cost that was quoted when the order was dispatched.</p></li>
+<li><p><strong>Shipping Documents</strong>
+<img src="https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/shipment_documents.png" alt="Shipment Options">
+The list of shipping documents that are required when dispatching your order to the couriers. Every dispatched shipment will link to a regular sized label and a thermal label. A label must be placed on each of the packages in your shipment. For international shipments, there is a commercial invoice document that must also be included in the shipment along with the shipping labels. All the documents are in .PDF format.</p></li>
+<li><p><strong>View On Flagship</strong>
+Brings you to the overview page for the shipment on the Flagship online shipping system.</p></li>
+</ul>
+
+<h3>
+<a id="pickups" class="anchor" href="#pickups" aria-hidden="true"><span class="octicon octicon-link"></span></a>Pickups</h3>
+
+<p>This link will bring you to the pickup actions page. From here, you can navigate to the <strong>Schedule Pickups</strong> page, or the <strong>View Pickups</strong> page.
+<img src="https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/pickup_admin.png" alt="Pickup Admin"></p>
+
+<h4>
+<a id="schedule-pickups" class="anchor" href="#schedule-pickups" aria-hidden="true"><span class="octicon octicon-link"></span></a>Schedule Pickups</h4>
+
+<p>From this page, you can schedule pickups for the shipments made through the Flagship for Shopify app.
+<img src="https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/pending_pickups.png" alt="Pending Pickups"></p>
+
+<ul>
+<li><p><strong>Tracking Number</strong>
+The tracking number for the order.</p></li>
+<li><p><strong>Intended Destination Address</strong>
+The destination of the order, as well as its intended receiver, either a company name or the name of a person.</p></li>
+<li><p><strong>Courier</strong>
+The courier company which was used in the dispatch.</p></li>
+<li><p><strong>Shipment Date</strong>
+The date on which the shipment was made.</p></li>
+<li><p><strong>Check To Schedule</strong>
+Checkboxes for which you want to schedule pickups for. You can schedule a single pickup for multiple shipments, provided they are all from the same courier. If the couriers are all the same for the selected shipments, you can then proceed to the schedule pickup page by pressing the <strong>Schedule pickups</strong> button on the bottom right of the page.</p></li>
+</ul>
+
+<h4>
+<a id="pickup-form" class="anchor" href="#pickup-form" aria-hidden="true"><span class="octicon octicon-link"></span></a>Pickup Form</h4>
+
+<p>This is where you fill in the information for your pickup. All of the fields are required to schedule your pickup.
+<img src="https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/pickup_form.png" alt="Pickup Form"></p>
+
+<ul>
+<li><p><strong>Pickup address</strong>
+This is the address that will be used for the pickup address. This is your store's address information.</p></li>
+<li><p><strong>Pickup Date</strong>
+The date when you want to schedule the pickup. Note that all the couriers have different lengths for which you can schedule your pickups ahead of time. In most case, scheduling pickups more than a week ahead of time may result in the request failing.</p></li>
+<li><p><strong>Pickup Location</strong>
+A drop down list of pickup locations that are considered valid options by the courier.</p></li>
+<li><p><strong>Delivery Instructions</strong>
+Special instructions to the driver for how to handle your shipment or other relevant information.</p></li>
+</ul>
+
+<p>Once all the information has been filled in, you can proceed by pressing the <strong>Schedule</strong> button. Once that has been done and no errors occur, your pickup is created and you can now view it from the <strong>View Pickups</strong> page.</p>
+
+<h4>
+<a id="view-pickups" class="anchor" href="#view-pickups" aria-hidden="true"><span class="octicon octicon-link"></span></a>View Pickups</h4>
+
+<p>This is where you can view all the pickups you have made through the Flagship for Shopify app. You can also cancel pickups you have already made.</p>
+
+<p><img src="https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/view_pickups.png" alt="View pickups"></p>
+
+<ul>
+<li><p><strong>Confirmation number</strong>
+The pickup confirmation number.</p></li>
+<li><p><strong>Pickup Date</strong>
+The date when the pickup was made for.</p></li>
+<li><p><strong>Pickup Location</strong>
+The location that was provided when the pickup was scheduled.</p></li>
+</ul>
+
+<p>The next row can have a button that allows you to cancel the pickup, provided that either the shipment has not been picked up by the courier yet, or that the pickup date has not been passed.</p>
+
+<p>Cancelled pickups will have the row highlighted in red and the cancel button is removed.</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/flagshipcompany/shopify-app-public">Flagship For Shopify</a> is maintained by <a href="https://github.com/flagshipcompany">flagshipcompany</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
