@@ -79,7 +79,7 @@ Checkboxes consisting of the courier services that Flagship offers, and a list o
 Allows you to set a weight limit split on individual boxes in orders, meaning that if you have an order which would exceed the weight that you provided, the app adds an extra box during the quoting and dispatch processes.
 
 * **Additional Services**
-Allows you to set options for orders to be automatically fulfilled in your Shopify admin page when you dispatch an order through the SmartShip app. **Note** this feature only applies to stores that use live courier rates which can automatically dispatch orders from the SmartShip app.
+Allows you to set options for orders to be automatically fulfilled in your Shopify admin page when you dispatch an order through the Flagship for Shopify app. **Note** this feature only applies to stores that use live courier rates which can automatically dispatch orders from the Flagship for Shopify app.
 
 * **Additional Charges**
 Allows you to add a residential surcharge during the quoting process and dispatch process. This helps get more accurate rates during the quoting process and the dispatch process. You can also choose to insure orders that are made through your store with Flagship's discounted insurance program.
@@ -100,7 +100,7 @@ The order number as it appears in your Shopify admin store. Links to the overvie
 The date the order was placed on.
 
 * **Courier Used**
-The courier used or the company who provides the shipping service (ex: UPS, Fedex, Purolator, etc.).
+The courier used or the company who provides the shipping service (ex: UPS, FedEx, Purolator, etc.).
 
 * **Service Used**
 The shipping service selected by the customer.
