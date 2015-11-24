@@ -148,10 +148,14 @@ The total cost that was quoted when the order was dispatched.
 
 * **Shipping Documents**
 ![Shipment Options](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/shipment_documents.png)
-The list of shipping documents that are required when dispatching your order to the couriers. Every dispatched shipment will link to a regular sized label and a thermal label. A label must be placed on each of the packages in your shipment. For international shipments, there is a commercial invoice document that must also be included in the shipment along with the shipping labels. All the documents are in .PDF format.
+The list of shipping documents that are required when dispatching your order to the couriers. Every dispatched shipment will link to a regular sized label and a thermal label. A label must be placed on each of the packages in your shipment. For international shipments, there is a commercial invoice document that must also be included in the shipment along with the shipping labels. All the documents are in .PDF format. Note that shipments that have not been dispatched or that have been cancelled will have no shipping documents available.
+
+* **Cancel Order**
+![Cancel Button](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/cancel_shipment.png)
+Allows you cancel the order that was made using the Flagship online shipping system. Note that cancelling an order that was made **will not** cancel any pickups made for that order automatically. They must be cancelled manually using the app. Orders that have been cancelled will have their rows highlighted in red.
 
 * **View On Flagship**
-Brings you to the overview page for the shipment on the Flagship online shipping system.
+Allows you to either see the overview for your order or continue the quoting process on the Flagship online shipping system. If your order was prequoted using the app, the link will bring you to the quote page for your order on the Flagship online shipping system. If the order was dispatched using the app or by other means, then the link will be the same, but will instead take you to the shipment overview page for the order on the Flagship online shipping system.
 
 ###Pickups
 This link will bring you to the pickup actions page. From here, you can navigate to the **Schedule Pickups** page, or the **View Pickups** page.
