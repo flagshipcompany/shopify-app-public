@@ -1,10 +1,10 @@
-# Flagship for Shopify App
+# FlagShip for Shopify App
 
-- [About the Flagship for Shopify App] (#about-the-flagship-for-shopify-app)
+- [About the FlagShip for Shopify App](#about-the-flagship-for-shopify-app)
 - [Features](#features)
 - [Considerations](#considerations)
-- [Getting Started With the Flagship for Shopify app](#getting-started-with-the-flagship-for-shopify-app)
-- [Flagship for Shopify app settings](#flagship-for-shopify-app-settings)
+- [Getting Started With the FlagShip for Shopify app](#getting-started-with-the-flagship-for-shopify-app)
+- [FlagShip for Shopify app settings](#flagship-for-shopify-app-settings)
 - [Pending Orders](#pending-orders)
 - [Prepared Orders](#prepared-orders)
 - [Schedule Pickups](#schedule-pickups)
@@ -12,22 +12,22 @@
 - [View Pickups](#view-pickups)
 - [Report Issues](https://github.com/flagshipcompany/shopify-issues/issues)
 
-##About the Flagship for Shopify App
-Flagship™ for Shopify is bringing reliable discounted shipping to your online store faster, easier and more affordably.  Instantly upload data, print labels, process shipments, share real-time rates or set shipping rates on your online store - and more!  Manage shipments for online purchases easily and take your Shopify store to the next level with Flagship.
+##About the FlagShip for Shopify App
+FlagShip™ for Shopify is bringing reliable discounted shipping to your online store faster, easier and more affordably.  Instantly upload data, print labels, process shipments, share real-time rates or set shipping rates on your online store - and more!  Manage shipments for online purchases easily and take your Shopify store to the next level with FlagShip.
 
 ##Features
-* Get real-time discounted shipping rates from Flagship's online shipping system to your Shopify store.
+* Get real-time discounted shipping rates from FlagShip's online shipping system to your Shopify store.
 * Print your labels from the app.
 * Manage pickups from the app.
 * Split the shipment in several boxes depending on weight.
-* Push any order to Flagship's online shipping system to create a prequoted shipment (useful if you don't have realtime quoting available in your Shopify Plan).
+* Push any order to FlagShip's online shipping system to create a prequoted shipment (useful if you don't have realtime quoting available in your Shopify Plan).
 * Easy way of adding residential surcharges to the quoted price.
 
 ##Considerations
- * Only "Unlimited" Shopify plans will benefit from real time quoting. Shops with a lesser plan will still be able to offer standard and/or flat rate shipping to their online store and send shipment information to Flagship's online shipping system through the Flagship for Shopify App.
+ * Only "Unlimited" Shopify plans will benefit from real time quoting. Shops with a lesser plan will still be able to offer standard and/or flat rate shipping to their online store and send shipment information to FlagShip's online shipping system through the FlagShip for Shopify App.
  * Since Shopify does not provide dimensions of your store goods, the shipping rate is made by weight only. Make sure you enter the dimensional weight for your goods if necessary for large but light items.
 
-## Connecting the app to the Flagship API
+## Connecting the app to the FlagShip API
 
 When the app is installed, you will be taken to this page where you register your token to the app.
 
@@ -35,9 +35,9 @@ When the app is installed, you will be taken to this page where you register you
 
 
 ### Create Token Credentials
-Go to https://auth.smartship.io, **login with your Flagship credentials** and create a set of credentials using the Shopify Preset
+Go to https://auth.smartship.io, **login with your FlagShip credentials** and create a set of credentials using the Shopify Preset
 
-*NOTE: Only Flagship Account Managers can access the credentials page*
+*NOTE: Only FlagShip Account Managers can access the credentials page*
 
 ![Auth Page](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/auth.png)
 
@@ -49,48 +49,45 @@ Insert the **Active token** text from the token that we just created into the **
 
 ![inputs](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/token_key_inputs.png)
 
-Submit the keys by pressing the **Save token credentials** button. If the key pair is valid, you will have successfully linked your app to the Flagship API.
+Submit the keys by pressing the **Save token credentials** button. If the key pair is valid, you will have successfully linked your app to the FlagShip API.
 
-You now have full access to the Flagship for Shopify app.
+You now have full access to the FlagShip for Shopify app.
 
 If for any reason, your token gets deleted, you will be redirected to this page if you ever access the app, as your token does not exist and is not considered valid. You will need to create a new token if you wish to continue using the app.
 
-## Getting Started With the Flagship for Shopify app
+## Getting Started With the FlagShip for Shopify app
 Here are the menu options that can be done in the app
 
 ![Main Menu](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/main_menu.png)
 
 * **Pending Orders**
-Allows you to complete orders using Flagship's online shipping system and dispatch them.
+Allows you to complete orders using FlagShip's online shipping system and dispatch them.
 * **Prepared Orders**
-Allows you to view dispatched shipments, request documents and view the shipment overview (done on the Flagship online shipping system).
+Allows you to view dispatched shipments, request documents and view the shipment overview (done on the FlagShip online shipping system).
 * **Pickups**
 Allows you to schedule pickups for dispatched shipments, view pickups and cancel scheduled pickups.
 * **Settings**
-Change app settings that modify quoting and shipment options when dispatching using Flagship's online shipping system.
+Change app settings that modify quoting and shipment options when dispatching using FlagShip's online shipping system.
 
-### Flagship for Shopify App Settings
+### FlagShip for Shopify App Settings
 
 * **Services**
-Checkboxes consisting of the courier services that Flagship offers, and a list of the various services types that the couriers will offer. You can use these checkboxes to show or hide certain couriers or services so that they will not appear in the *shipping method* menu at checkout.
+Checkboxes consisting of the courier services that FlagShip offers, and a list of the various services types that the couriers will offer. You can use these checkboxes to show or hide certain couriers or services so that they will not appear in the *shipping method* menu at checkout.
 
 * **Packaging**
 Allows you to set a weight limit split on individual boxes in orders, meaning that if you have an order which would exceed the weight that you provided, the app adds an extra box during the quoting and dispatch processes.
 
-* **Additional Services**
-Allows you to set options for orders to be automatically fulfilled in your Shopify admin page when you dispatch an order through the Flagship for Shopify app. **Note** this feature only applies to stores that use live courier rates which can automatically dispatch orders from the Flagship for Shopify app.
-
 * **Additional Charges**
-Allows you to add a residential surcharge during the quoting process and dispatch process. This helps get more accurate rates during the quoting process and the dispatch process. You can also choose to insure orders that are made through your store with Flagship's discounted insurance program.
+Allows you to add a residential surcharge during the quoting process and dispatch process. This helps get more accurate rates during the quoting process and the dispatch process. You can also choose to insure orders that are made through your store with FlagShip's discounted insurance program.
 
 ### Pending Orders
 
 This is the page where you can see all the orders that have been placed by customers. 
 
 ![Pending Orders](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/pending_orders.png)
-This page also allows you to take orders and convert them to a shipment using the Flagship online shipping system. You can also automatically dispatch orders from this page as well, provided the order was quoted with a Flagship service.
+This page also allows you to take orders and convert them to a shipment using the FlagShip online shipping system. You can also automatically dispatch orders from this page as well, provided the order was quoted with a FlagShip service.
 
-Upon installing the app, it will fetch all the orders your store has not marked as shipped from the past thirty days and add them to the app's records so that you can start using the Flagship for Shopify app right away.
+Upon installing the app, it will fetch all the orders your store has not marked as shipped from the past thirty days and add them to the app's records so that you can start using the FlagShip for Shopify app right away.
 
 * **Order Number**
 The order number as it appears in your Shopify admin store. Links to the overview for the order in your Shopify admin page.
@@ -113,22 +110,22 @@ Checks to see if the order has been fufilled in your admin page. An order is con
 #### Actions
 An action that can be taken for the order, usually in the form of a button or a link. Different factors will determine what will be shown and what actions it will take.
   
-* **Convert order on Flagship**
+* **Convert order on FlagShip**
 ![Convert Order](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/convert_order.png)
-Any online store order that was processed via the Flagship for Shopify App using a standard or flat rate must be sent to the Flagship online shipping system to select your choice of service, courier rate and to complete your shipment. 
-**Note**: you will not be charged for completing this action on the Flagship for Shopify App. However, when you complete your order and dispatch it through the Flagship online shipping system, you will be charged for this order.
+Any online store order that was processed via the FlagShip for Shopify App using a standard or flat rate must be sent to the FlagShip online shipping system to select your choice of service, courier rate and to complete your shipment. 
+**Note**: you will not be charged for completing this action on the FlagShip for Shopify App. However, when you complete your order and dispatch it through the FlagShip online shipping system, you will be charged for this order.
 
-* **Dispatch Order to Flagship**
+* **Dispatch Order to FlagShip**
 ![Dispatch Order](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/dispatch_order.png)
-Any online store order that was processed via the Flagship for Shopify App using live courier rates can be immediately dispatched to the Flagship online shipping system by pressing the **Dispatch Order to Flagship** button. This will automatically create the necessary documents you need to send the shipment to your customer, such as the shipping labels and the commercial invoices, if necessary. If your order has been fulfilled in your store's admin page, a prompt will appear asking you to confirm the dispatch. This extra step is for your benefit and ensures you do not dispatch an order that has already been sent out **or** so you do not get charged for an order that you do not plan on shipping.
-**Note**: By dispatching an order using the Flagship for Shopify App, you will be charged for the dispatched order on the Flagship online shipping system.
+Any online store order that was processed via the FlagShip for Shopify App using live courier rates can be immediately dispatched to the FlagShip online shipping system by pressing the **Dispatch Order to FlagShip** button. This will automatically create the necessary documents you need to send the shipment to your customer, such as the shipping labels and the commercial invoices, if necessary. If your order has been fulfilled in your store's admin page, a prompt will appear asking you to confirm the dispatch. This extra step is for your benefit and ensures you do not dispatch an order that has already been sent out **or** so you do not get charged for an order that you do not plan on shipping.
+**Note**: By dispatching an order using the FlagShip for Shopify App, you will be charged for the dispatched order on the FlagShip online shipping system.
 
-* **View on Flagship**
-![View On Flagship](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/view_on_flagship.png)
-Allows you to either see the overview for your order or continue the quoting process on the Flagship online shipping system. If your order was prequoted using the app, the link will bring you to the quote page for your order on the Flagship online shipping system. If the order was dispatched using the app, then the link will be the same, but will instead take you to the shipment overview page for the order on the Flagship online shipping system.
+* **View on FlagShip**
+![View On FlagShip](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/view_on_flagship.png)
+Allows you to either see the overview for your order or continue the quoting process on the FlagShip online shipping system. If your order was prequoted using the app, the link will bring you to the quote page for your order on the FlagShip online shipping system. If the order was dispatched using the app, then the link will be the same, but will instead take you to the shipment overview page for the order on the FlagShip online shipping system.
 
 ### Prepared Orders
-This allows you to see all the orders you have dispatched using the Flagship for Shopify app and online system.
+This allows you to see all the orders you have dispatched using the FlagShip for Shopify app and online system.
 ![Shipments Page](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/shipments.png)
 
 * **Order Number**
@@ -152,10 +149,10 @@ The list of shipping documents that are required when dispatching your order to 
 
 * **Cancel Order**
 ![Cancel Button](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/cancel_shipment.png)
-Allows you cancel the order that was made using the Flagship online shipping system. Note that cancelling an order that was made **will not** cancel any pickups made for that order automatically. They must be cancelled manually using the app. Orders that have been cancelled will have their rows highlighted in red.
+Allows you cancel the order that was made using the FlagShip online shipping system. Note that cancelling an order that was made **will not** cancel any pickups made for that order automatically. They must be cancelled manually using the app. Orders that have been cancelled will have their rows highlighted in red.
 
-* **View On Flagship**
-Allows you to either see the overview for your order or continue the quoting process on the Flagship online shipping system. If your order was prequoted using the app, the link will bring you to the quote page for your order on the Flagship online shipping system. If the order was dispatched using the app or by other means, then the link will be the same, but will instead take you to the shipment overview page for the order on the Flagship online shipping system.
+* **View On FlagShip**
+Allows you to either see the overview for your order or continue the quoting process on the FlagShip online shipping system. If your order was prequoted using the app, the link will bring you to the quote page for your order on the FlagShip online shipping system. If the order was dispatched using the app or by other means, then the link will be the same, but will instead take you to the shipment overview page for the order on the FlagShip online shipping system.
 
 ###Pickups
 This link will bring you to the pickup actions page. From here, you can navigate to the **Schedule Pickups** page, or the **View Pickups** page.
@@ -163,7 +160,7 @@ This link will bring you to the pickup actions page. From here, you can navigate
 
 
 ####Schedule Pickups
-From this page, you can schedule pickups for the shipments made through the Flagship for Shopify app.
+From this page, you can schedule pickups for the shipments made through the FlagShip for Shopify app.
 ![Pending Pickups](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/pending_pickups.png)
 
 * **Tracking Number**
@@ -201,7 +198,7 @@ Special instructions to the driver for how to handle your shipment or other rele
 Once all the information has been filled in, you can proceed by pressing the **Schedule** button. Once that has been done and no errors occur, your pickup is created and you can now view it from the **View Pickups** page.
 
 ####View Pickups
-This is where you can view all the pickups you have made through the Flagship for Shopify app. You can also cancel pickups you have already made.
+This is where you can view all the pickups you have made through the FlagShip for Shopify app. You can also cancel pickups you have already made.
 
 ![View pickups](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/view_pickups.png)
 
