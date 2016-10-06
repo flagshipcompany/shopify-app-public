@@ -10,6 +10,9 @@
 - [Schedule Pickups](#schedule-pickups)
 - [Pickup Form](#pickup-form)
 - [View Pickups](#view-pickups)
+- [Product Features](#product-features)
+- [View Products](#view-products)
+- [View/Create Boxes](#view-boxes)
 - [Report Issues](https://github.com/flagshipcompany/shopify-issues/issues)
 
 ##About the FlagShip for Shopify App
@@ -19,7 +22,6 @@ FlagShip™ for Shopify is bringing reliable discounted shipping to your online 
 * Get real-time discounted shipping rates from FlagShip's online shipping system to your Shopify store.
 * Print your labels from the app.
 * Manage pickups from the app.
-* Split the shipment in several boxes depending on weight.
 * Push any order to FlagShip's online shipping system to create a prequoted shipment (useful if you don't have realtime quoting available in your Shopify Plan).
 * Easy way of adding residential surcharges to the quoted price.
 
@@ -66,6 +68,8 @@ Allows you to complete orders using FlagShip's online shipping system and dispat
 Allows you to view dispatched shipments, request documents and view the shipment overview (done on the FlagShip online shipping system).
 * **Pickups**
 Allows you to schedule pickups for dispatched shipments, view pickups and cancel scheduled pickups.
+* **Products**
+Allows you to save your product's dimensions, as well as create boxes that will be used when generating rates and dispatching orders on the FlagShip API
 * **Settings**
 Change app settings that modify quoting and shipment options when dispatching using FlagShip's online shipping system.
 
@@ -75,7 +79,7 @@ Change app settings that modify quoting and shipment options when dispatching us
 Checkboxes consisting of the courier services that FlagShip offers, and a list of the various services types that the couriers will offer. You can use these checkboxes to show or hide certain couriers or services so that they will not appear in the *shipping method* menu at checkout.
 
 * **Packaging**
-Allows you to set a weight limit split on individual boxes in orders, meaning that if you have an order which would exceed the weight that you provided, the app adds an extra box during the quoting and dispatch processes.
+Allows you to set the unit of measurement you wish to use when setting your products and box dimensions, and the unit of measurement used when generating rates, dispatching, and prequoting orders on the app.
 
 * **Additional Charges**
 Allows you to add a residential surcharge during the quoting process and dispatch process. This helps get more accurate rates during the quoting process and the dispatch process. You can also choose to insure orders that are made through your store with FlagShip's discounted insurance program.
@@ -214,3 +218,41 @@ The location that was provided when the pickup was scheduled.
 The next row can have a button that allows you to cancel the pickup, provided that either the shipment has not been picked up by the courier yet, or that the pickup date has not been passed.
 
 Cancelled pickups will have the row highlighted in red and the cancel button is removed.
+
+####Product Features
+**New Features**
+The View products and View Boxes section of the FlagShip for Shopify app allow you to enter in extra information regarding your products dimensions. It will also allow you to enter and save the boxes that you use when you ship your orders.
+![View products](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/products_menu.png)
+
+The two features combined allows the FlagShip API to generate a optimal packaging solution for your orders, which will automatically be used when generating rates at checkout, and dispatching or prequoting orders.
+
+**Note**
+**The FlagShip for Shopify app will not calculate rates, dispatch, or prequote orders if you have not entered in the dimensional information for all your products and/or entered correct box sizes.**
+You will be notified of the packing errors when you attempt to dispatch or prequote an order if its missing product dimensions or missing boxes. You will also be notified if the FlagShip API could not find a packing solution in these three conditions:
+
+![Box Error](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/packing_error_boxes.png)
+
+This error above means that there are no boxes saved in the FlagShip for Shopify app. You must go to the View/Create boxes page and save a box on the app.
+
+![Product Error](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/product_error_product.png)
+
+The error shown above means that the product mentioned in the error message is missing dimensions. You must go to the Product List page and enter in the dimensions for the product in question. This error message will appear once for each product that is missing dimensions within an order, so this message can appear multiple times in the same order.
+
+![Packing Error](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/packing_error.png)
+
+The error shown above means that based on the given products in the order, and the boxes saved in the app, the FlagShip API cannot provide a packing solution for this order. This is usually caused because one of the products in the order cannot fit inside any or the boxes provided in a normal fashion. To resolve this issue, it is recommended that you have a box that can fit the products you have listed in your store.
+
+####View Products
+From this page, you can enter in the dimensions of each of your store's products.
+
+![View products](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/product_list.png)
+
+For each product you have in your store, you can enter in their dimensions using the unit of measurement shown in the message under the title, with either centimeters (cm), or inches (in) being the supported dimensions.
+
+####View Boxes
+This page allows you to create, edit, and delete boxes that your Shopify store uses when shipping orders.
+
+![View products](https://raw.githubusercontent.com/flagshipcompany/shopify-app-public/master/img/box_list.png)
+
+To create a new box, simply press the **Add New Box** button and a new row will appear where you can fill out your box's dimensions, a maximum weight that your box can support, the weight of the box when empty, and a name for the box being entered.
+
